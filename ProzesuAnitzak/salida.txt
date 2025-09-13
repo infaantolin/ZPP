@@ -1,0 +1,4 @@
+
+C:\Users\Aitzi\eclipse-workspace\ZPP\ProzesuAnitzak>mkdir C:\Users\Aitzi\Desktop\Adib1 
+
+C:\Users\Aitzi\eclipse-workspace\ZPP\ProzesuAnitzak>mkdir C:\Users\Aitzi\Desktop\Adib2 
