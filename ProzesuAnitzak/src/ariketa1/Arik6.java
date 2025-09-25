@@ -18,7 +18,7 @@ public class Arik6 {
 		// Este método ejecuta un archivo batch (.bat) mediante ProcessBuilder.
 		
 		// EJEMPLO INCORRECTO (provocará error si se deja así):
-		//ProcessBuilder pb = new ProcessBuilder("CMD", "/C", "Users\\Aitzi\\Desktop\\nireBat.bat");
+		//ProcessBuilder pb = new ProcessBuilder("CMD", "/C", "Users\\infaantolin\\Desktop\\nireBat.bat");
 
 		// KONTUZ - se ejecutará el .bat
 		ProcessBuilder pb = new ProcessBuilder("CMD","/C","\\Users\\Aitzi\\Desktop\\nireBat.bat");

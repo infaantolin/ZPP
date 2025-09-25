@@ -16,7 +16,7 @@ public class Arik1 {
 
 	public static void exekutatuApp() {
 
-//		ProcessBuilder pb = new ProcessBuilder("notepad");
+//ProcessBuilder pb = new ProcessBuilder("notepad");
 		ProcessBuilder pb = new ProcessBuilder("calc");
 		try {
 			Process p = pb.start();
