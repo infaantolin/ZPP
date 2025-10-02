@@ -23,9 +23,10 @@ public class HiloRunnable implements Runnable {
 	}
 
 	public static void main(String[] args) {
+		
 		Thread h1 = new Thread(new HiloRunnable("Runnable-1"));
 		Thread h2 = new Thread(new HiloRunnable("Runnable-2"));
-
+		
 		h1.start();
 		h2.start();
 

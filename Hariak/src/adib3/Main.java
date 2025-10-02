@@ -1,7 +1,5 @@
 package adib3;
 
-import adib3.MiHilo;
-
 public class Main {
 
 	public static void main(String[] args) {
