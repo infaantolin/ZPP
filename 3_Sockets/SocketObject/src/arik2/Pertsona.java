@@ -16,6 +16,11 @@ public class Pertsona implements Serializable {
 	private Date jaiotzeData;
 	private char generoa;
 
+	
+	public Pertsona() {
+
+	}
+
 	public String getNif() {
 		return nif;
 	}

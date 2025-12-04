@@ -9,10 +9,10 @@ import java.net.Socket;
 public class Zerbitzari {
 
 	public static void main(String[] args) {
-		final int portua = 5002;
+		final int PORTUA = 5000;
 
 		try {
-			ServerSocket zerbitzari = new ServerSocket(portua);
+			ServerSocket zerbitzari = new ServerSocket(PORTUA);
 			System.out.println("Zerbitzaria hasieratuta");
 			Socket bezero = zerbitzari.accept();
 
