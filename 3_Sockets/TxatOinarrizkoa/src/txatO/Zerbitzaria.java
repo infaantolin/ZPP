@@ -24,7 +24,7 @@ public class Zerbitzaria {
 			while (hb.isAlive() && hj.isAlive()) {
 
 			}
-			System.out.println("Kaixo, elkarrizketa bukatu dut.");
+			System.out.println("Elkarrizketaren amaiera.");
 			hb.bukatu();
 			hj.bukatu();
 

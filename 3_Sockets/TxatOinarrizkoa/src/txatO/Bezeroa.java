@@ -20,7 +20,7 @@ public class Bezeroa {
 			while (hb.isAlive() && hj.isAlive()) {
 
 			}
-			System.out.println("Kaixo, bezeroa naiz eta elkarrizketa bukatu dut.");
+			System.out.println("Elkarrizketaren amaiera.");
 			hb.bukatu();
 			hj.bukatu();
 
