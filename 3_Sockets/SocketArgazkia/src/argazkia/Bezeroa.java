@@ -21,7 +21,6 @@ public class Bezeroa extends JFrame {
 
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
-	private static final int TAM_PAKETE = 4096;
 	static String fitxIzena = "error.jpg";
 	final static int PORTUA = 5000;
 	private JLabel lblArgazkia;
