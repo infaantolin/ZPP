@@ -37,6 +37,7 @@ public class HariaBidali extends Thread {
 
 	public void bukatu() {
 		jarraitu = false;
+		System.exit(0);
 
 	}
 }

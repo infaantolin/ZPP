@@ -14,9 +14,8 @@ public class HariaJaso extends Thread {
 	}
 
 	public void run() {
-		DataInputStream dis;
 		try {
-			dis = new DataInputStream(bezeroa.getInputStream());
+			DataInputStream dis = new DataInputStream(bezeroa.getInputStream());
 
 			while (jarraitu) {
 				String testua = dis.readUTF();
