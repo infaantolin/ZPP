@@ -11,13 +11,13 @@ public class HariaJasoB extends Thread {
 
 	JTextArea textArea = null;
 	JTextField testua = null;
-	ObjectInputStream oos = null;
+	ObjectInputStream ois = null;
 	JButton bidaliBotoia = null;
 
-	public HariaJasoB(JTextArea textArea, JTextField testua, ObjectInputStream oos, JButton bidaliBotoia) {
+	public HariaJasoB(JTextArea textArea, JTextField testua, ObjectInputStream ois, JButton bidaliBotoia) {
 		this.textArea = textArea;
 		this.testua = testua;
-		this.oos = oos;
+		this.ois = ois;
 		this.bidaliBotoia = bidaliBotoia;
 	}
 
@@ -26,7 +26,7 @@ public class HariaJasoB extends Thread {
 
 		while (!testua.equals("*")) {
 			try {
-				testua = (String) oos.readObject();
+				testua = (String) ois.readObject();
 				if(!testua.equals("*"))
 					textArea.append(testua);
 				else
